@@ -27,7 +27,7 @@ public class RobotRacer {
 		}
 		while (!checkForWinner(robots)) {
 			for (int i = 0; i < robots.length; i++) {
-				robots[i].move(random.nextInt(11));
+				robots[i].move(random.nextInt(101));
 			}
 		}
 	}
