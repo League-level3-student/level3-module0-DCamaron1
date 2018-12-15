@@ -8,8 +8,8 @@ public class _00_1D_Array_Test {
 
 	@Test
 	public void testSum() {
-		int[] arr = {0, 1, 2, 3, 4};
-		assertEquals(10, _00_1D_Array_Methods.sumIntArray(arr));
+		int[] arr = {0, 1, 2, 3, 4, 5};
+		assertEquals(15, _00_1D_Array_Methods.sumIntArray(arr));
 		
 		int[] arr2 = {-4, 1, 2, 1, -3};
 		assertEquals(-3, _00_1D_Array_Methods.sumIntArray(arr2));
