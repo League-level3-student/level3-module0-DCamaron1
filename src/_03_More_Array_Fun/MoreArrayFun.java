@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class MoreArrayFun {
 	String[] names = { "Esme", "John", "David", "Isis", "Michiyo" };
-
+	
 	// 1. Create a main method to test the other methods you write.
 	public static void main(String[] args) {
 
@@ -25,8 +25,8 @@ public class MoreArrayFun {
 
 	public static String reversePrintAll(String[] names2) {
 		String namesString = "";
-		for (int i = names2.length; i >= 0; i--) {
-			if (i == names2.length+1) {
+		for (int i = names2.length-1; i >= 0; i--) {
+			if (i == 0) {
 				namesString = namesString + names2[i];
 			}
 			else {
